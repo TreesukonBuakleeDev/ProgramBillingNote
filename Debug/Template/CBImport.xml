@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AccpacImpExp Action="16" ProgramName="CB1200" Type="IMPORT" Version="532" HasTitleRecord="1">
+  <VIEW ID="CB0009" Type="4" Action="0">
+    <TABLE>Batch_List</TABLE>
+  </VIEW>
+  <VIEW ID="CB0010" Type="3" Action="0" Parent="CB0009" SelectedIDs="1 2 3 4 6 9 10 46 ">
+    <TABLE>Batch_Header</TABLE>
+  </VIEW>
+  <VIEW ID="CB0011" Type="9" Action="0" Parent="CB0010" SelectedIDs="1 2 3 4 5 6 11 12 36 ">
+    <TABLE>Batch_Detail</TABLE>
+  </VIEW>
+  <VIEW ID="CB0014" Type="9" Action="0" Parent="CB0010" SelectedIDs="1 2 3 4 5 ">
+    <TABLE>Batch_Miscellaneous</TABLE>
+  </VIEW>
+  <VIEW ID="CB0012" Type="8" Action="0" Parent="CB0011" SelectedIDs="1 2 3 4 5 6 7 8 9 10 11 12 17 18 21 ">
+    <TABLE>Batch_Sub_Detail</TABLE>
+  </VIEW>
+  <VIEW ID="CB0013" Type="9" Action="0" Parent="CB0012" SelectedIDs="1 2 3 4 5 6 7 ">
+    <TABLE>Batch_Detail_Adjustments</TABLE>
+  </VIEW>
+  <VIEW ID="CB0015" Type="9" Action="0" Parent="CB0011" SelectedIDs="1 2 3 4 ">
+    <TABLE>Batch_PJC_Detail</TABLE>
+  </VIEW>
+  <VIEW ID="CB0016" Type="9" Action="0" Parent="CB0012" SelectedIDs="1 2 3 4 5 6 ">
+    <TABLE>Batch_PJC_Sub_Detail</TABLE>
+  </VIEW>
+  <VIEW ID="CB0404" Type="8" Action="0" Parent="CB0010" SelectedIDs="1 2 3 ">
+    <TABLE>Batch_Header_Optional_Fields</TABLE>
+  </VIEW>
+  <VIEW ID="CB0403" Type="8" Action="0" Parent="CB0011" SelectedIDs="1 2 3 4 ">
+    <TABLE>Batch_Detail_Optional_Fields</TABLE>
+  </VIEW>
+  <DBNAME>D:\Customer\ThaiToken\ProjectBill_ThaiToken_2022\ProjectBill\bin\x86\Debug\ExcelForImportCB\CBImport.xls</DBNAME>
+  <DBTYPE>Excel 2000</DBTYPE>
+  <BatchID>
+  </BatchID>
+</AccpacImpExp>

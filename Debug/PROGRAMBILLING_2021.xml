@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PROGRAMBILLING_2021
+</name>
+</assembly>
+<members>
+<member name="T:PROGRAMBILLING_2021.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PROGRAMBILLING_2021.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PROGRAMBILLING_2021.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PROGRAMBILLING_2021.My.Resources.Resources.FMS_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGRAMBILLING_2021.My.Resources.Resources.FMS_Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGRAMBILLING_2021.My.Resources.Resources.icons8_play_96">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGRAMBILLING_2021.My.Resources.Resources.icons8_search_90">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGRAMBILLING_2021.My.Resources.Resources.log_in">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:PROGRAMBILLING_2021.EncryptDecrypt_Class">
+ <summary>
+ Summary description for SSTCryptographer
+ </summary>
+</member>
+<member name="M:PROGRAMBILLING_2021.EncryptDecrypt_Class.Encrypt(System.String)">
+ <summary>
+ Encrypt the given string using the default key.
+ </summary>
+ <param name="strToEncrypt">The string to be encrypted.</param>
+ <returns>The encrypted string.</returns>
+</member>
+<member name="M:PROGRAMBILLING_2021.EncryptDecrypt_Class.Decrypt(System.String)">
+ <summary>
+ Decrypt the given string using the default key.
+ </summary>
+ <param name="strEncrypted">The string to be decrypted.</param>
+ <returns>The decrypted string.</returns>
+</member>
+<member name="M:PROGRAMBILLING_2021.EncryptDecrypt_Class.Encrypt(System.String,System.String)">
+ <summary>
+ Encrypt the given string using the specified key.
+ </summary>
+ <param name="strToEncrypt">The string to be encrypted.</param>
+ <param name="strKey">The encryption key.</param>
+ <returns>The encrypted string.</returns>
+</member>
+<member name="M:PROGRAMBILLING_2021.EncryptDecrypt_Class.Decrypt(System.String,System.String)">
+ <summary>
+ Decrypt the given string using the specified key.
+ </summary>
+ <param name="strEncrypted">The string to be decrypted.</param>
+ <param name="strKey">The decryption key.</param>
+ <returns>The decrypted string.</returns>
+</member>
+</members>
+</doc>
